@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import hh from './Header.module.css';
 
 const Header = () => {
     return (
-        <header className='header'>
+        <header className={hh.header}>
             <img
                 src='https://st2.depositphotos.com/1064024/10769/i/600/depositphotos_107694484-stock-photo-little-boy.jpg'/>
 

@@ -1,5 +1,12 @@
 import React from 'react';
 import cl from './Navbar.module.css';
+/*
+let c1 = "item";
+let c2 = "active";
+let classes = c1 + " " + c2;
+let classesNew = `${c1} ${c2}`;
+*/
+
 const Navbar = () => {
     return (
         <nav className={cl.nav}>

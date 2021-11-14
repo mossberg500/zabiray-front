@@ -17,7 +17,7 @@ const Profile = () => {
                 <div>
                     New post
                 </div>
-                <div className='posts'>
+                <div className={pr.posts}>
                     <div className={pr.item}>post 1</div>
                     <div className={pr.item}>post 2</div>
                     <div className={pr.item}>post 3</div>
