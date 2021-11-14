@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.css';
-import Header from './views/Header';
-import Footer from "./views/Footer";
-import Navbar from "./views/Navbar";
-import Profile from "./views/Profile";
+import Header from './views/Header/Header';
+import Footer from "./views/Footer/Footer";
+import Navbar from "./views/Navbar/Navbar";
+import Profile from "./views/Profile/Profile";
 
 
 function App() {
