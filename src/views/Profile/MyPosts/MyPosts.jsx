@@ -12,9 +12,9 @@ const MyPosts = () => {
                     New post
                 </div>
                 <div className={pr.posts}>
-                    <Post />
-                    <Post />
-                    <Post />
+                    <Post message='Hi, how a you?' />
+                    <Post message='It s my first post' />
+                    <Post message='It s trust post' />
                     {/*<div className={pr.item}>post 2</div>
                     <div className={pr.item}>post 3</div>*/}
                 </div>
